@@ -4,7 +4,7 @@ A comprehensive web-based electronics calculator application designed for breadb
 
 ## Features
 
-### 15 Essential Calculators
+### 16 Essential Calculators
 
 #### Basic Calculations
 - **Ohm's Law Calculator** - Calculate voltage, current, resistance, and power
@@ -18,6 +18,7 @@ A comprehensive web-based electronics calculator application designed for breadb
 
 #### Components
 - **Capacitor Calculator** - Series/parallel combinations and energy storage
+- **BJT Transistor Calculator** - Base resistor calculation for NPN/PNP switching with diagrams and presets (2N3904, 2N3906, TIP120, etc.)
 - **Op-Amp Calculator** - Inverting and non-inverting amplifier gain calculations
 
 #### Frequency & Filters

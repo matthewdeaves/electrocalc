@@ -11,7 +11,7 @@ export type Unit =
 export interface CalculatorInfo {
   id: string
   name: string
-  category: 'basic' | 'timing' | 'power' | 'frequency' | 'utility'
+  category: 'basic' | 'timing' | 'power' | 'frequency' | 'utility' | 'components'
   description: string
   helpContent: string
 }

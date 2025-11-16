@@ -15,6 +15,7 @@ import {
   Cable,
   Menu,
   X,
+  Cpu,
 } from 'lucide-react'
 import { cn } from '../../lib/utils/formatters'
 
@@ -33,12 +34,13 @@ const calculators: CalculatorItem[] = [
   { id: '555-timer', name: '555 Timer', icon: Timer, category: 'Timing' },
   { id: 'rc-time', name: 'RC Time Constant', icon: Activity, category: 'Timing' },
   { id: 'capacitors', name: 'Capacitors', icon: Zap, category: 'Components' },
+  { id: 'transistor', name: 'BJT Transistor', icon: Cpu, category: 'Components' },
+  { id: 'op-amp', name: 'Op-Amp', icon: TrendingUp, category: 'Components' },
   { id: 'filters', name: 'Filters', icon: Filter, category: 'Frequency' },
   { id: 'resistor-color', name: 'Resistor Color Code', icon: Palette, category: 'Utility' },
   { id: 'unit-converter', name: 'Unit Converter', icon: ArrowLeftRight, category: 'Utility' },
   { id: 'standard-values', name: 'Standard Values', icon: Target, category: 'Utility' },
   { id: 'regulator', name: 'Linear Regulator', icon: Zap, category: 'Power' },
-  { id: 'op-amp', name: 'Op-Amp', icon: TrendingUp, category: 'Components' },
   { id: 'battery', name: 'Battery Life', icon: Battery, category: 'Power' },
   { id: 'wire-gauge', name: 'Wire Gauge', icon: Cable, category: 'Utility' },
 ]

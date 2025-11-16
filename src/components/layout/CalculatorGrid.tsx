@@ -5,6 +5,7 @@ import ResistorCombosCalculator from '../calculators/ResistorCombosCalculator'
 import Timer555Calculator from '../calculators/Timer555Calculator'
 import RCTimeCalculator from '../calculators/RCTimeCalculator'
 import CapacitorCalculator from '../calculators/CapacitorCalculator'
+import TransistorCalculator from '../calculators/TransistorCalculator'
 import FilterCalculator from '../calculators/FilterCalculator'
 import ResistorColorCalculator from '../calculators/ResistorColorCalculator'
 import UnitConverterCalculator from '../calculators/UnitConverterCalculator'
@@ -56,6 +57,10 @@ export default function CalculatorGrid() {
         {/* Component Calculators */}
         <section id="calc-capacitors">
           <CapacitorCalculator />
+        </section>
+
+        <section id="calc-transistor">
+          <TransistorCalculator />
         </section>
 
         <section id="calc-op-amp">
